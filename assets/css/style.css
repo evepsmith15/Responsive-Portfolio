@@ -1,0 +1,171 @@
+header {
+    background-color: #ffffff;
+    border-bottom: solid #cccccc;
+    border-color: #cccccc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    font-size: larger;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+h1 {
+    color: #4aaaa5;
+    width: 960px;
+}
+
+div {
+    background-color: #ffffff;
+}
+
+hr {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#name {
+    background-color: darkcyan;
+    position: absolute;
+    color: #ffffff;
+    top: 10px;
+    left: 200px;
+    width: 120px;
+    padding: 20px;
+}
+
+.links {
+position: absolute;
+top: 10px;
+right:50px;
+}
+
+body {
+    margin: 0;
+    background-image: url("../images/full-bloom.jpg");  
+    background-position: center;
+}      
+
+#head {
+position: relative;
+background-color: white;
+}
+
+#box {
+    bottom: -100px;
+    left: 50px;
+    height:460px;
+    width: 960px;
+    margin: 0;
+    position: relative;
+    
+}
+
+#top {
+    position: relative;
+    width: 100%;
+    top: 0;
+    right: 40px;
+    background-color: solid white;
+}
+
+#main {
+    position: absolute;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    overflow: auto;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    resize: none;
+    overflow: auto;
+}
+
+#about {
+    position: relative;
+    left: -1px;
+    bottom: 0;
+    top: 0;
+}
+
+#message {
+    height: 150px;
+    padding: 50px 50px;
+}
+
+#surround {
+    position: relative;
+    left: -1px;
+    bottom: 0;
+    top: 0;
+}
+#one {
+    position: relative;
+    left: 50px;
+    bottom: -20px;
+}
+
+#two {
+    position: relative;
+    left: 400px;
+    top: -185px;
+}
+
+#three {
+    position: relative;
+    left: 50px;
+    bottom: 185px;
+}
+
+#four {
+    position: relative;
+    left: 400px;
+    bottom: 390px;
+}
+
+#five {
+    position: relative;
+    left: 50px;
+    bottom: 370px;
+}
+footer {
+    background-color: #666666;
+    border-top: solid blue;
+    border-width: large;
+    color: #ffffff;
+    text-align: center;
+    position: fixed; 
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.wrapper {
+    width: 980px;
+    margin: 0;
+}
+
+@media screen and (max-width: 980px ){
+    .wrapper {
+        width:768px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .wrapper {
+        width: 640px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+
+}
