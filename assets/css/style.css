@@ -153,21 +153,26 @@ footer {
 .wrapper {
     overflow: hidden;
     margin: 0;
-    float: 0;
+    float: left;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
     #main {
         background-color: lightblue;
     }
     .wrapper {
-    overflow: hidden;
+        width: 100%!important;
+        overflow: auto;
     }
 }
 
-@media screen and (min-width: 640px) {
+@media screen and (max-width: 640px) {
     #main {
-        background-color: lavender;
+        background-color: pink; 
+    }
+    .wrapper {
+        width: 100!important;
+        overflow: auto;
     }
 }
 
